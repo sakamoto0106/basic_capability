@@ -23,7 +23,7 @@ jobs:
       - name: Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.7.0-1.5.pre '
+          flutter-version: '3.7.0'
           channel: 'beta'
           cache: true
       - run: flutter --version
